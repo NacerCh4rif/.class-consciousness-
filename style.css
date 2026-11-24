@@ -1,3 +1,38 @@
-.p{
-  font-family: 
+@font-face {
+    font-family: meansOfProducfont;
+    src: url(konstruktor/Konstruktor.otf);
+}
+
+p {
+    color: #FFF903;
+    font-family: meansOfProducfont;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFF903;
+    font-family: meansOfProducfont;
+    text-align: center;
+}
+
+body {
+    background-color : #DB261D;
+}
+
+a {
+    color: #FFF903;
+    font-family: meansOfProducfont;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
