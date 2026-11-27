@@ -5,18 +5,28 @@
         <title>L'URSS de Gorbatchev</title>
         <meta charset ="utf-8"/>
         <meta name="description" content="Histoire du dernier dirigeant de l'URSS"/>
-        <link rel="icon" type="image/png" href="images/favicon.png"/>
+        <link rel="icon" type="image/png" href="favicon.png"/>
+        <link rel="stylesheet" href="style.css">
         <meta name="author" content="Noé augier aymeric et Nacer Charif">
         
     </head>
 
     <body>
 
+        <p class="menu">
+            <h1>  
+                <a href="index.html">.class{consciousness}</a>
+            </h1>
+            <a href=premisces.html>Prémisces du communisme</a><a class="menu" href=revolution.html>Révolution d'octobre</a>
+            <a href=dictature.html>Dictature de Staline</a>
+            <a href=gorbatchev.html>Gorbatchev</a>
+        </p>
+
         <h1>
             L'URSS de Gorbatchev
         </h1>
                  
-<img src="gorbatchev.png">
+        <img class="images" src="gorbatchev.png">
 
          
         <p>
@@ -32,6 +42,15 @@
             En 1991, Gorbatchev est victime d’un coup d’État qui résulta en la dissolution de l’URSS.
             Gorbatchev mourut en 2022.
         </p>
+
+        <form id="form" action="mailto:my@e-mail?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
+			<p>
+				<label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" value=" ">
+				<label for="nom">Nom</label><input id="nom" type="text" name="nom" value=" "><br>
+				<textarea name="impression" rows="5" cols="50">Donnez vos impressions sur le site...</textarea><br>
+				<input type="submit" value="Envoyer">
+			</p>
+		</form>
         
     </body>
 </html>
